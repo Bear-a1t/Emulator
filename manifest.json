@@ -1,0 +1,28 @@
+{
+  // unclear if iOS uses this - specify for safety
+  "name": "Arrakis Guide",
+
+  // unclear if iOS uses this - specify for safety
+  "short_name": "Arrakis Guide",
+
+  // unclear if iOS uses this - specify for safety
+  "description": "Get the most out of your pilgrimage to Arrakis",
+
+  // iOS DOES seem to use this. It's the url to load when
+  // the icon is tapped
+  "start_url": "/",
+
+  // iOS DOES seem to use this. It says that any url that
+  // starts with this value is "in navigation scope" and
+  // thus will NOT open up a separate web view.
+  // Although the default for this is /, omitting this
+  // DOES NOT WORK in iOS - all links will open
+  // Mobile Safari. So set this.
+  "scope": "/",
+
+  // unclear if iOS uses this - specify for safety
+  "display": "standalone",
+
+  // unclear if iOS uses this - specify for safety
+  "theme_color": "#F6FFFE"
+}
